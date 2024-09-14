@@ -1,0 +1,46 @@
+body,
+header,
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+.novel-recommendations {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+
+  .novel-rec {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    ul {
+      list-style-type: none;
+      margin: 0.5rem 0 0.5rem 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    li {
+      padding: 1rem;
+      background-color: pink;
+      border-radius: 10px;
+      margin: 0.25rem 0.25rem 0.25rem 0.25rem;
+      padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+    }
+  }
+
+  img {
+    width: 200px;
+  }
+}
